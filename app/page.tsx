@@ -153,8 +153,7 @@ export default async function Home() {
 						brief="Wi-Fi Logger Once and For-All"
 						startDate="May 2024"
 						endDate="June 2024"
-						tags={["Next.js", "MongoDB"]}
-						GHLink="https://github.com/vinfinity7/Port_Folio"
+						tags={["Next.js", "MongoDB","Git"]}
 						demoLink="https://sakshamdev.vercel.app/"
 						>
 						<Flex direction={"column"} gap={2}>
@@ -176,7 +175,7 @@ export default async function Home() {
 						brief="Chip8 Emulator made using classic C++"
 						startDate="May 2024"
 						endDate="June 2024"
-						tags={["TailwindC++"]}
+						tags={["C++"]}
 						GHLink="https://github.com/vinfinity7/CHIP8"
 						>
 						<div>
