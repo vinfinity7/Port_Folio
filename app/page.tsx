@@ -150,7 +150,7 @@ export default async function Home() {
 
 					<ProjectCard
 						title="Personal Portfolio"
-						brief="Wi-Fi Logger Once and For-All"
+						brief="Portfolio showcasing my journey"
 						startDate="May 2024"
 						endDate="June 2024"
 						tags={["Next.js", "MongoDB","Git"]}
