@@ -155,7 +155,7 @@ export default async function Home() {
 						endDate="June 2024"
 						tags={["Next.js", "MongoDB"]}
 						GHLink="https://github.com/vinfinity7/Port_Folio"
-						demoLink="https://cops-freshers-page.vercel.app/"
+						demoLink="https://sakshamdev.vercel.app/"
 						>
 						<Flex direction={"column"} gap={2}>
 							<div>
