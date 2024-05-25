@@ -1,0 +1,116 @@
+.projectCard {
+	background-color: hsl(var(--background2));
+	border-radius: 32px;
+	padding: 40px;
+	display: flex;
+	/* height: min-content; */
+	/* justify-content: center; */
+	flex-direction: column;
+	gap: 8px;
+
+	border: 1px solid hsl(var(--text) / 20%);
+}
+.projectCardHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.projectCardLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 16px;
+}
+.projectCardTitle {
+	font-size: x-large;
+	height: min-content;
+	font-weight: bold;
+}
+
+.projectCardDates {
+	font-size: small;
+	opacity: 0.6;
+}
+.badge {
+	background-color: hsl(var(--text));
+	border-radius: 16px;
+	padding: 4px 8px;
+	color: hsl(var(--background));
+	font-size: small;
+}
+.projectCardTags {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-top: auto;
+}
+.projectCardContent {
+	transition: height 0.3s ease-out;
+	list-style-position: inside;
+	overflow-y: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.projectCardContentWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	justify-content: center;
+	align-items: center;
+}
+.viewMoreBtn {
+	background-color: hsl(var(--background2));
+	border: 2px dashed hsl(var(--text) / 20%);
+	border-radius: 16px;
+	padding: 8px 16px;
+	cursor: pointer;
+	width: max-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	margin-block: 1em;
+}
+.viewMoreBtn:hover {
+	background-color: hsl(var(--background) / 50%);
+	border: 2px dashed hsl(var(--primary));
+}
+.blurContentElem {
+	position: absolute;
+	bottom: 0;
+	background-color: hsl(var(--background2) / 50%);
+	backdrop-filter: blur(1px);
+	height: 2ch;
+	width: 100%;
+}
+@media (max-width: 768px) {
+	.projectCard {
+		padding: 24px;
+	}
+	.projectCardTitle {
+		font-size: large;
+	}
+	.projectCardDates {
+		font-size: x-small;
+	}
+	.projectCardTags {
+		gap: 4px;
+		font-size: xx-small;
+	}
+
+	.projectCardContentWrapper {
+		gap: 4px;
+	}
+	.viewMoreBtn {
+		padding: 8px 12px;
+		font-size: small;
+	}
+	.badge {
+		font-size: xx-small;
+	}
+	.projectCardContent {
+		font-size: small;
+	}
+}

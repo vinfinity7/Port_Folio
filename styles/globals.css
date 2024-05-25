@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "GoogleSans-Medium"; /* Choose a name for your font */
+	src: url("./fonts/GoogleSans-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "GoogleSans-Bold"; /* Choose a name for your font */
+	src: url("./fonts/GoogleSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "GoogleSans-Regular"; /* Choose a name for your font */
+	src: url("./fonts/GoogleSans-Regular.ttf") format("truetype");
+	font-weight: lighter;
+	font-style: normal;
+}
+:root {
+	--background: 260 14% 4%;
+	--text: 349 57% 95%;
+	--primary: 187 43% 30%;
+	--background2: 266 18% 8%;
+	--secondary: 229 28% 43%;
+	--attention: 329 76% 57%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 16px;
+	gap: 16px;
+	padding: 0 1em;
+	margin: 2em 0;
+}
+
+body {
+	display: flex;
+
+	align-items: center;
+	flex-direction: column;
+}
