@@ -75,7 +75,7 @@ export default async function Home() {
 				<Box>
 					<Box fontSize={"x-large"}>Frameworks</Box>
 					<Box opacity={0.7}>
-						React, Next.js, Three.js, Shephard.js
+						React, Next.js, Three.js
 					</Box>
 				</Box>
 				<Box>
