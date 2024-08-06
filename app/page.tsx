@@ -181,6 +181,11 @@ export default async function Home() {
 						>
 						<div>
 							<Text
+								opacity={0.2}
+								>
+								Under Development Right Now 
+							</Text>
+							<Text
 								color="hsl(var(--primary))"
 								fontWeight={"bold"}
 								>
