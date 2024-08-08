@@ -9,13 +9,13 @@ export default async function Home() {
 	return (
 		<main className={styles.main}>
 			<Flex className={styles.intro} flexDirection={"column"} gap={"4px"}>
-			<Image
-  borderRadius='full'
-  boxSize='25vh'
-  src='icon.png'
-  alt='Saksham Misra'
-  
-/>
+				<Image
+					borderRadius='full'
+					boxSize='25vh'
+					src='icon.png'
+					alt='Saksham Misra'
+
+				/>
 
 				<Heading>Hi, I&apos;m Saksham.</Heading>
 
@@ -101,9 +101,9 @@ export default async function Home() {
 						]}
 						GHLink="https://github.com/vinfinity7/Threejs_COPS"
 						demoLink="https://cops-freshers-page.vercel.app/"
-						>
+					>
 						<Flex gap={2} direction="column">
-							
+
 							<div>
 								<Text
 									color="hsl(var(--secondary))"
@@ -112,7 +112,7 @@ export default async function Home() {
 									Background
 								</Text>
 								<Text opacity={0.7} fontWeight={"lighter"}>
-								This is an Introductory website to all the verticals in our college coding group COPS .This makes Club of Programmers one of the most important clubs in the institute. Club of Programmers (or better known as COPS) understands this responsibility and plays a crucial part in maintaining the coding culture in the institute. Introductory workshops are held for freshers to introduce them to the various facets of programming. Regular competitions are held for the general student body to test and sharpen their programming skills.
+									This is an Introductory website to all the verticals in our college coding group COPS .This makes Club of Programmers one of the most important clubs in the institute. Club of Programmers (or better known as COPS) understands this responsibility and plays a crucial part in maintaining the coding culture in the institute. Introductory workshops are held for freshers to introduce them to the various facets of programming. Regular competitions are held for the general student body to test and sharpen their programming skills.
 								</Text>
 							</div>
 						</Flex>
@@ -124,12 +124,12 @@ export default async function Home() {
 						endDate="January 2024"
 						tags={["Electron.js", "JavaScript"]}
 						GHLink="https://github.com/vinfinity7/wifi_login"
-						>
+					>
 						<div>
 							<Text
 								color="hsl(var(--primary))"
 								fontWeight={"bold"}
-								>
+							>
 								Features
 							</Text>
 
@@ -137,12 +137,12 @@ export default async function Home() {
 								style={{
 									opacity: 0.7,
 								}}
-								>
-  <li>The main functionality of this application is to automate the process of logging into the WiFi network at IIT BHU.</li>
-  <li>It achieves this by sending multiple Axios-based requests to the firewall URL of the college WiFi.</li>
-  <li>It includes error handling to manage failed login attempts and retries automatically.</li>
-  <li>The application runs in the background, ensuring seamless WiFi connectivity without user intervention.</li>
-  <li>The application is designed to be lightweight and have minimal impact on system performance.</li>
+							>
+								<li>The main functionality of this application is to automate the process of logging into the WiFi network at IIT BHU.</li>
+								<li>It achieves this by sending multiple Axios-based requests to the firewall URL of the college WiFi.</li>
+								<li>It includes error handling to manage failed login attempts and retries automatically.</li>
+								<li>The application runs in the background, ensuring seamless WiFi connectivity without user intervention.</li>
+								<li>The application is designed to be lightweight and have minimal impact on system performance.</li>
 
 							</ul>
 						</div>
@@ -153,10 +153,10 @@ export default async function Home() {
 						brief="Portfolio showcasing my journey"
 						startDate="May 2024"
 						endDate="June 2024"
-						tags={["Next.js", "MongoDB","Git"]}
+						tags={["Next.js", "MongoDB", "Git"]}
 						GHLink="#"
 						demoLink="https://sakshamdev.vercel.app/"
-						>
+					>
 						<Flex direction={"column"} gap={2}>
 							<div>
 								<Text
@@ -166,7 +166,7 @@ export default async function Home() {
 									Background
 								</Text>
 								<Text opacity={0.7}>
-								A portfolio developed using Next.js and MongoDB showcases a dynamic and efficient web application. Next.js enables server-side rendering and static site generation, enhancing performance and SEO. MongoDB, as a NoSQL database, offers flexibility in storing and managing data. Together, they create a seamless, responsive portfolio with fast load times and a modern user experience. This tech stack is ideal for developers looking to build scalable, high-performance websites that can handle dynamic content effortlessly.
+									A portfolio developed using Next.js and MongoDB showcases a dynamic and efficient web application. Next.js enables server-side rendering and static site generation, enhancing performance and SEO. MongoDB, as a NoSQL database, offers flexibility in storing and managing data. Together, they create a seamless, responsive portfolio with fast load times and a modern user experience. This tech stack is ideal for developers looking to build scalable, high-performance websites that can handle dynamic content effortlessly.
 								</Text>
 							</div>
 						</Flex>
@@ -178,22 +178,22 @@ export default async function Home() {
 						endDate="June 2024"
 						tags={["C++"]}
 						GHLink="https://github.com/vinfinity7/CHIP8"
-						>
+					>
 						<div>
 							<Text
 								opacity={0.2}
-								>
-								Under Development Right Now 
+							>
+								Under Development Right Now
 							</Text>
 							<Text
 								color="hsl(var(--primary))"
 								fontWeight={"bold"}
-								>
+							>
 								Features
 							</Text>
 
 							<Text opacity={0.7}>
-							I developed a Chip8 emulator in C++, bringing the classic 1970s programming language to modern systems. This project involved simulating the original Chip8 hardware, managing memory, handling I/O, and interpreting opcodes. Through this process, I deepened my understanding of emulation and low-level programming. Creating this emulator allowed me to merge my passion for retro gaming with my C++ development skills, resulting in a functional piece of computing history that runs seamlessly on contemporary devices.
+								I developed a Chip8 emulator in C++, bringing the classic 1970s programming language to modern systems. This project involved simulating the original Chip8 hardware, managing memory, handling I/O, and interpreting opcodes. Through this process, I deepened my understanding of emulation and low-level programming. Creating this emulator allowed me to merge my passion for retro gaming with my C++ development skills, resulting in a functional piece of computing history that runs seamlessly on contemporary devices.
 							</Text>
 						</div>
 					</ProjectCard>
@@ -202,7 +202,7 @@ export default async function Home() {
 						brief="Frontend Clone developed on Vanilla.js"
 						startDate="May 2023"
 						endDate="June 2023"
-						tags={["HTML","CSS","Vanilla","Youtube API"]}
+						tags={["HTML", "CSS", "Vanilla", "Youtube API"]}
 						GHLink="https://github.com/vinfinity7/netflix-frontend-clone"
 						demoLink="https://vinfinity7.github.io/netflix-frontend-clone/"
 					>
@@ -215,7 +215,7 @@ export default async function Home() {
 							</Text>
 
 							<Text opacity={0.7}>
-							In my attempt to recreate Netflix look using basic JavaScript, I used the YouTube API to add cool videos. With careful coding, I made sure the website looked just like Netflix. JavaScript helped me get videos dynamically, so users could browse a bunch of cool stuff. From smooth moving around to easy video playing, I made sure every part felt just like the real Netflix site.
+								In my attempt to recreate Netflix look using basic JavaScript, I used the YouTube API to add cool videos. With careful coding, I made sure the website looked just like Netflix. JavaScript helped me get videos dynamically, so users could browse a bunch of cool stuff. From smooth moving around to easy video playing, I made sure every part felt just like the real Netflix site.
 							</Text>
 						</div>
 					</ProjectCard>
