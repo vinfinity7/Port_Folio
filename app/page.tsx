@@ -69,21 +69,35 @@ export default async function Home() {
 			<Flex direction={"column"} gap={"4px"}>
 				<Heading>Skills</Heading>
 				<Box>
-					<Box fontSize={"x-large"}>Languages</Box>
-					<Box opacity={0.7}>TypeScript, JavaScript, C++, C</Box>
-				</Box>
-				<Box>
-					<Box fontSize={"x-large"}>Frameworks</Box>
-					<Box opacity={0.7}>
-						React, Next.js, Three.js
-					</Box>
-				</Box>
-				<Box>
-					<Box fontSize={"x-large"}>Tools & Databases </Box>
-					<Box opacity={0.7}>
-						Figma, Git, MongoDB{" "}
-					</Box>
-				</Box>
+	<Box fontSize={"x-large"}>Languages</Box>
+	<Box opacity={0.7}>
+		TypeScript, JavaScript, C++, C, Python, Java
+	</Box>
+</Box>
+
+<Box>
+	<Box fontSize={"x-large"}>Frameworks</Box>
+	<Box opacity={0.7}>
+		React, Next.js, Node.js, Express.js, Three.js, Tailwind CSS
+	</Box>
+</Box>
+
+<Box>
+	<Box fontSize={"x-large"}>Tools & Databases</Box>
+	<Box opacity={0.7}>
+		AWS CDK, AWS ECS, FireLens, CloudWatch, Kinesis Firehose, S3, Glue, Athena,
+		Figma, Git, GitHub, MongoDB, Docker, Postman
+	</Box>
+</Box>
+
+<Box>
+	<Box fontSize={"x-large"}>Areas of Interest</Box>
+	<Box opacity={0.7}>
+		Web Development, Cloud Architecture, Game Development, AI-driven Systems, 
+		Optimization Algorithms
+	</Box>
+</Box>
+
 			</Flex>
 			<div className={styles.divider} />
 			<Flex direction={"column"} gap={"16px"}>
